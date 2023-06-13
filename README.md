@@ -25,8 +25,10 @@ Description	字符串型，货物描述
 10．Errors.txt文件包含未发送的发货记录和库存量大于0的删除记录。Errors.txt每一行包含Custom编号、Item编号以及发货单上的数量Quantity。对于删除操作，Custom编号为0，数量Quntity为库存中的Quantity.
 11．实验测试数据:
 Inventory.txt
- 
+ ![image](https://github.com/1951350456/javaIoProblem/assets/115992637/c17cdaad-9091-4686-8646-5257cc19425e)
+
 Transactions.txt
- 
+ ![image](https://github.com/1951350456/javaIoProblem/assets/115992637/eef6d948-387c-4c97-a106-b93418c97896)
+
 注意：
 在IO文件读写内容没有学习的情况下，可以将上述两个文件的每行字符串通过add()方法分别增加到两个Vector对象 stringVectorInv, stringVectorTra，然后编程实现后面的实验要求。
